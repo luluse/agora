@@ -3,14 +3,19 @@ const router = require("express").Router();
 const User = require("../models/User");
 
 router.post("/register", async (req, res) => {
-  const user = await new User({
-    username:"lulu",
-    email:"lulu.app@gmail.com",
-    password:"jordi32"
-  })
+  const newUser = await new User({
+    username:req.body.username,
+    email:req.body.email,
+    password:req.body.password,
+  });
 
-  await user.save();
-  res.send("ok")
-})
+  try{
+    const user = await newUser.save();
+    res.status(200).json(user)
+  } catch(err){
+    console.log(err)
+  }
+
+});
 
 module.exports = router;
