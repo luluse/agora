@@ -14,4 +14,10 @@ create posts, update, delete, like and dislike
 
 fetch all timeline posts
 
-tools: express(node.js framework- server will run in there), mongoose(helps create mongo models), helmet(help make requests to server), morgan(login middleware)
+tools: 
+- express(node.js framework- server will run in there)
+- mongoose(helps create mongo models)
+- helmet(help make requests to server)
+- morgan(login middleware)
+- mongoDB Atlas
+- bcrypt (hash passwords before saving it into db) 
