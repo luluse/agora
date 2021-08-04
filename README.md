@@ -21,3 +21,5 @@ tools:
 - morgan(login middleware)
 - mongoDB Atlas
 - bcrypt (hash passwords before saving it into db) 
+- multer (to save images into server when user uploads an image)
+- path (to direct images into public folder on server side)
