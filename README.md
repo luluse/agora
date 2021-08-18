@@ -1,20 +1,25 @@
-# agora
+# Agora
 
-Node.js social media app REST API
 
-react App, mongo DB: create, update, delete our collections
+## Server - backend code
 
-in the API: register and log in autentication
+#### Full Stack Social media app using REST API built with Node.JS in the backend and React.JS in the frontend. Database is MongoDB Atlas.
 
-users router: get, updete delete methods
 
-follow and unfollow users
+### Business Requirements
+Our application named **Agora** will power a fullstack social media app that will allow our users to create and share posts, follow people, like posts and browse all posts on the timeline.
 
-create posts, update, delete, like and dislike
+### Key features
 
-fetch all timeline posts
+- Mongo DB: create, update, delete our collections
 
-tools: 
+- register and login autentication
+- users router: get, update delete methods
+- follow and unfollow users
+- create posts, update, delete, like and dislike
+- fetch all timeline posts
+
+### Technical requirements
 - express(node.js framework- server will run in there)
 - mongoose(helps create mongo models)
 - helmet(help make requests to server)
@@ -23,3 +28,17 @@ tools:
 - bcrypt (hash passwords before saving it into db) 
 - multer (to save images into server when user uploads an image)
 - path (to direct images into public folder on server side)
+
+
+
+### Setup
+
+1. Clone down this repo locally.
+
+2. Add .env file with ```MONGODB=``` varaible. Add your mongoDB URI to connect to your DB.
+
+3. Turn on local server using ```nodemon index.js``` command. 
+
+4. Server will run on port 8800. To change port number, go to index.js file.
+
+
