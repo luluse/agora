@@ -37,8 +37,10 @@ Our application named **Agora** will power a fullstack social media app that wil
 
 2. Add .env file with ```MONGODB=``` varaible. Add your mongoDB URI to connect to your DB.
 
-3. Turn on local server using ```nodemon index.js``` command. 
+3. in the terminal, type ```npm i``` to install all npm packages.
 
-4. Server will run on port 8800. To change port number, go to index.js file.
+4. Turn on server on local machine using ```nodemon index.js``` command. 
+
+5. Server will run on port 8800. To change port number, go to ```index.js``` file.
 
 
