@@ -29,7 +29,7 @@ Our application named **Agora** will power a fullstack social media app that wil
 - multer (to save images into server when user uploads an image)
 - path (to direct images into public folder on server side)
 
-
+#### [Link to Frontend Repo](https://github.com/luluse/agora-ui)
 
 ### Setup
 
